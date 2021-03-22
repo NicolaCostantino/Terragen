@@ -1,0 +1,19 @@
+[
+  {
+    "name": "${app_name}",
+    "image": "${app_image}",
+    "essential": true,
+    "portMappings": [
+      {
+        "containerPort": 3000,
+        "hostPort": 3000,
+        "protocol": "tcp"
+      }
+    ],
+    "environment": [],
+    "mountPoints": [],
+    "volumesFrom": [],
+    "memory": 512,
+    "cpu": 256
+  }
+]
