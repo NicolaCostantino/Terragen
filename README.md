@@ -1,2 +1,2 @@
-# Venom
-IAAC with Terraform for containers on AWS
+# Terragen
+Minimal IAAC template Terraform for containers on AWS using Terraform
